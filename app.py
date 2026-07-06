@@ -23,7 +23,7 @@ else:
     hf_token = "YOUR_HF_TOKEN_HERE" 
 
 # 使用するAIモデルをPCと同じ「Gemma 3 4B」に指定
-API_URL = "https://api-inference.huggingface.co/models/google/gemma-3-4b-it"
+API_URL = "https://api-inference.huggingface.co/models/Qwen/Qwen2.5-72B-Instruct"
 
 def query_gemma3(prompt, temperature):
     """Hugging Faceの無料Inference APIを呼び出す関数"""
